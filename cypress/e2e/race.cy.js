@@ -12,6 +12,7 @@ it('successfully login', () => {
     loginPage.enterEmail('yusranoor02@gmail.com');
     loginPage.enterPassword('12345678');
     loginPage.clickLogin();
+    // just testing
 
     cy.contains('RACE').click();
     cy.contains('Add a Race').click();
